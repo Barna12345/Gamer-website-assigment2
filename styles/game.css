@@ -182,6 +182,21 @@ line-height: normal;
 }
 
 
+.photos{
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+
+
+}
+
+
 
 
 
@@ -215,10 +230,16 @@ line-height: normal;
     .second-part{
         flex-direction: column;
     }
-    .second-tittl{
+    .second-tittle{
         flex-direction: column;
     }
-
+ .four-img{
+    flex-direction: column;
+ }
+.photos{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
  
     
@@ -252,12 +273,21 @@ line-height: normal;
         flex-direction: column;
       
     }
-    }
-
     .second-tittle{
         flex-direction: column;
         padding-left: 50px;
         padding-right: 50px;
     }
+
+    .four-img{
+        flex-direction: column;
+     }
+    .photos{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    }
+
+  
     
-}
+
