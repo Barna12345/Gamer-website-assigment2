@@ -202,15 +202,51 @@ line-height: normal;
     width: 100%;
     height: 70%;
     background-color: #0B0223;
+text-align: center;
+justify-content: center;
 }
+
+.last-part{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.logo-tit{
+    color: white;
+    display: flex;
+    padding-left: 45%;
+    padding-bottom: 10px;
+  
+}
+
 
 .six{
     color: white;
     list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 35%;
 }
 
 .icon{
     color: white;
+    padding-top: 10px;
+
+
+}
+
+.policy{
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-left: 35%;
+
+}
+
+.copy{
+    color: white;
+    padding-left: 35px;
 }
 
 
@@ -257,6 +293,11 @@ line-height: normal;
     display: grid;
     grid-template-columns: 1fr;
 }
+.footer-sec{
+    flex-direction: column;
+    padding-top: 100px;
+}
+
 
  
     
